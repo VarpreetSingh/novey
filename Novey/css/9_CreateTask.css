@@ -1,0 +1,21 @@
+#f1{
+  position: absolute;
+  height: 8.5%;
+  width: 50%;
+  margin-left: 35%;
+  margin-top: 14.5%;
+}
+.bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../bg.jpg');
+}
+#f2{
+  position: absolute;
+  height: 8.5%;
+  width: 25%;
+  margin-left: 60%;
+  margin-top: 20.5%;
+}

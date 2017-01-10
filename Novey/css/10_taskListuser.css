@@ -1,0 +1,59 @@
+.bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../bg.jpg');
+}
+#back{
+  color: white;
+}
+#heading{
+  position: absolute;
+  font-size: 600%;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: cursive;
+  font-variant: normal;
+  margin-left: 32.5%;
+  color: white;
+}
+
+.container_for_task_list{
+  margin-top: 9%;
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  overflow-y: scroll;
+  overflow: visible;
+}
+.taskItem{
+  width: 19.5%;
+  height: 15%;
+  background: none;
+  color: white;
+  font-style: normal;
+  font-family: cursive;
+  font-weight: bolder;
+  float: left;
+  margin-left: 0.5%;
+  border: none;
+}
+.task_name{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.actionList{
+  width: 100%;
+  height: 100%;
+}
+#action{
+  width: 30%;
+  margin-top:6%;
+  margin-left: 1%;
+  color: red;
+  font-weight: bolder;
+  border: none;
+}

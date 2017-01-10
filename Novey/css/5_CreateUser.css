@@ -1,0 +1,50 @@
+.bg{
+  position: absolute;
+  height: 60%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 9%;
+  background: rgba(0,0,0, 0.2);
+}
+.parent{
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width:100%;
+}
+#f1{
+  position: absolute;
+  height: 8.5%;
+  width: 43%;
+  margin-left: 28.5%;
+  margin-top: 12%;
+}
+#f2{
+  position: absolute;
+  height: 8.5%;
+  width: 43%;
+  margin-left: 28.5%;
+  margin-top: 18%;
+}
+#f3{
+  position: absolute;
+  height: 8.5%;
+  width: 43%;
+  margin-left: 28.5%;
+  margin-top: 24%;
+}
+#f4{
+  position: absolute;
+  height: 8.5%;
+  width: 21%;
+  margin-left: 28.5%;
+  margin-top: 30%;
+}
+#f5{
+  position: absolute;
+  height: 8.5%;
+  width: 21%;
+  margin-left: 50.5%;
+  margin-top: 30%;
+}

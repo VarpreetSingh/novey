@@ -1,0 +1,36 @@
+#f1{
+  position: absolute;
+  height: 8.5%;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 15.5%;
+}
+.parent{
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width:100%;
+}
+#f2{
+  position: absolute;
+  height: 8.5%;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 21.5%;
+}
+#f3{
+  position: absolute;
+  height: 8.5%;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 27.5%;
+}
+.bg{
+  position: absolute;
+  background: rgba(0,0,0, 0.2);
+  height: 60%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 9%;
+ }

@@ -1,0 +1,33 @@
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+<link  href="../js/angular.min.js.map">
+<script src="../js/angular.min.js"></script>
+<script src="../js/angular-route.js"></script>
+<script src="../js/jquery-3.1.1.js"></script>
+<link  href="../js/bootstrap.min.css.map">
+<link rel="stylesheet" href="../js/bootstrap.min.css">
+<link  href="../js/bootstrap-theme.min.css.map">
+<link rel="stylesheet" href="../js/bootstrap-theme.min.css">
+<script src="../js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/11_viewtasks_admin.css">
+<script src="../js/mainfile.js"></script>
+<div class="bg" ng-controller="maincontroller">
+  <label id="heading">Showing All Tasks</label>
+  <div class="taskList">
+    <div class="thumbnail task" ng-repeat="x in todoList">
+      <div class="task_name">
+        <input type="checkbox" id="check" ng-model="check">
+        <span>{{x.taskname}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="action">
+    <a href="#assign_task_to_new_user"><button type = "button" class = "btn btn-danger" id="takeAction">Assign To New User</button></a>
+  </div>
+</div>

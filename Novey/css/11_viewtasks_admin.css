@@ -1,0 +1,66 @@
+.bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../bg.jpg');
+}
+#heading{
+  position: absolute;
+  font-size: 600%;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: cursive;
+  font-variant: normal;
+  margin-left: 23%;
+  color: white;
+}
+.taskList{
+  margin-top: 9.5%;
+  height: 65%;
+  width: 90%;
+  margin-left: 5%;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+.task{
+  height: 10%;
+  width: 80%;
+  margin-left: 10%;
+  float: left;
+  background: none;
+  border: none;
+  color: gold;
+}
+.task_name{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: normal;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 150%;
+}
+.action{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1%;
+  height: 10%;
+}
+#takeAction{
+  margin-left: 2.5%;
+  width: 96.15%;
+  height: 100%;
+}
+#check{
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+  background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+	background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+	background: linear-gradient(top, #222 0%, #45484d 0%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
+}

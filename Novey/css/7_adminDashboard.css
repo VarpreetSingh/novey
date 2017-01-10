@@ -1,0 +1,33 @@
+#heading{
+  position: absolute;
+  font-size: 600%;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: cursive;
+  font-variant: normal;
+  margin-left: 27.5%;
+  margin-top:7.5%;
+  color: white;
+}
+.bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../bg.jpg');
+}
+
+#b2{
+  position: absolute;
+  height: 8.5%;
+  width: 12.5%;
+  margin-top: 17%;
+  margin-left: 55.35%;
+}
+#b3{
+  position: absolute;
+  height: 8.5%;
+  width: 12.5%;
+  margin-top: 17%;
+  margin-left: 68.35%;
+}
